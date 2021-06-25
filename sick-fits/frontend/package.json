@@ -63,7 +63,11 @@
   "eslintConfig": {
     "extends": [
       "wesbos"
-    ]
+    ],
+    "rules": {
+      "react/prop-type": "ignore",
+      "react/jsx-props-no-spreading": "ignore"
+    }
   },
   "jest": {
     "setupFilesAfterEnv": [
